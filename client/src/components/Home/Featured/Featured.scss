@@ -1,0 +1,24 @@
+.featured-trainers {
+  text-align: center; 
+
+  .trainers {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+
+    .trainer {
+      display: flex;
+      flex-direction: column; 
+      align-items: center; 
+
+      img {
+        max-width: 100%; 
+        height: auto; 
+      }
+
+      p {
+        margin-top: 10px; 
+      }
+    }
+  }
+}
